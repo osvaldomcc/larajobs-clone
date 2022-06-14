@@ -1,14 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
+import { Header } from './components/UI/Header';
+import { PostJobAlert } from './components/UI/PostJobAlert';
 import './App.css';
 
-function App() {
+export const App = () => {
   return (
-    <div>
-      <img src={logo} alt="react-logo" height={130} />
-      <p>Ready to start</p>
+    <div className="app">
+      <Header />
+      <main className="container"></main>
+      <PostJobAlert />
     </div>
   );
-}
-
-export default App;
+};
