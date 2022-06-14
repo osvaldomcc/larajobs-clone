@@ -1,0 +1,33 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.social{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fixed-top{
+    position: fixed;
+    right: 20px;
+}
+
+.fill-space{
+    width: 150px;
+}
+
+.logo-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 100px;
+}
+
+@media screen and (min-width: 729px) {
+    .logo-image{
+        justify-content: start;
+    }
+}
