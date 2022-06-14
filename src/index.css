@@ -1,5 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --black: #2D3748;
+  --darkBlue: #2A4365;
+  --formBackground: #EDF2F7;
+  --gray: #E2E8F0;
+  --green: #75C19A;
+  --lightBlue: #30BCED;
+  --lightestBlue: #EBF8FF;
+  --lightGray: #F8FAFC;
+  --red: #F56565;
+  --viveBlue: #51A2E3;
+  --white: #FFFFFF;
+  --lightYellow: #FEFCBF;
+  --darkGray: #718096;
+}
+
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +32,79 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* utilities */
+
+.mt-5{
+  margin-top: 5px;
+}
+
+.mr-5{
+  margin-right: 5px;
+}
+
+.mt-10{
+  margin-top: 10px;
+}
+
+.mr-20{
+  margin-right: 20px;
+}
+
+.underlined{
+  text-decoration: underline;
+}
+
+.relative{
+  position: relative;
+}
+
+/* code app */
+.btn{
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  margin: 0px;
+  transition: background-color .3s ease-in;
+  height: 45px;
+}
+
+.btn-social{
+  background-color: var(--darkBlue);
+  color: var(--white);
+  font-size: 12px;
+  border-radius: 2px;
+  padding: 0px 8px;
+  height: 24px;
+}
+
+.btn-social:hover{
+  background-color: var(--black);
+}
+
+.btn-primary-outlined{
+  background-color: var(--lightBlue);
+  color: var(--white);
+  padding: 2px 20px;
+  font-size: 16px;
+  border: 2px solid var(--lightBlue);
+}
+
+.btn-primary-outlined:hover{
+  color: var(--lightBlue);
+  background-color: var(--white);
+}
+
+.btn-primary-outlined-reverse{
+  background-color: var(--white);
+  color: var(--lightBlue);
+  padding: 2px 20px;
+  font-size: 16px;
+  border: 2px solid var(--lightBlue);
+}
+
+.btn-primary-outlined-reverse:hover{
+  color: var(--white);
+  background-color: var(--lightBlue);
 }
