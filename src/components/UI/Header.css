@@ -1,0 +1,32 @@
+.header{
+    background-image: url("../../assets/background/bg.svg");
+    background-size: cover;
+    border-bottom: 1px solid var(--gray);
+}
+
+.content{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 5px;
+    padding-bottom: 20px;
+}
+
+.title{
+    margin-top: -10px;
+    color: var(--black);
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subtitle{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: var(--darkGray);
+    font-size: 22px;
+}
