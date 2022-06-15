@@ -1,5 +1,5 @@
 .header{
-    background-image: url("../../assets/background/bg.svg");
+    background-image: url("../../../assets/background/bg.svg");
     background-size: cover;
     border-bottom: 1px solid var(--gray);
 }

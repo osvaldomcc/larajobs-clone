@@ -13,6 +13,7 @@
 .fixed-top{
     position: fixed;
     right: 20px;
+    z-index: 2;
 }
 
 .fill-space{

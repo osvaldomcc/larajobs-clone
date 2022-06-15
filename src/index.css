@@ -34,10 +34,18 @@ code {
     monospace;
 }
 
+a{
+  text-decoration: none;
+}
+
 /* utilities */
 
 .mt-5{
   margin-top: 5px;
+}
+
+.ml-5{
+  margin-left: 5px;
 }
 
 .mr-5{
@@ -58,6 +66,58 @@ code {
 
 .relative{
   position: relative;
+}
+
+.text-title{
+  font-size: 30px;
+}
+
+.text-black{
+  color: var(--black);
+}
+
+.text-dark-blue{
+  color: var(--darkBlue);
+}
+
+.text-gray{
+  color: var(--gray);
+}
+
+.text-green{
+  color: var(--green);
+}
+
+.text-light-blue{
+  color: var(--lightBlue);
+}
+
+.text-lightest-blue{
+  color: var(--lightestBlue);
+}
+
+.text-light-gray{
+  color: var(--lightGray);
+}
+
+.text-red{
+  color: var(--red);
+}
+
+.text-vive-blue{
+  color: var(--viveBlue);
+}
+
+.text-white{
+  color: var(--white);
+}
+
+.text-light-yellow{
+  color: var(--lightYellow);
+}
+
+.text-dark-gray{
+  color: var(--darkGray);
 }
 
 /* code app */
