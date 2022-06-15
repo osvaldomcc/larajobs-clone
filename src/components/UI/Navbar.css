@@ -20,14 +20,14 @@
 }
 
 .logo-image{
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: end;
-    height: 100px;
+    margin-bottom: 10px;
 }
 
 @media screen and (min-width: 729px) {
     .logo-image{
-        justify-content: start;
+        display: flex;
     }
 }

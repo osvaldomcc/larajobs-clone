@@ -1,4 +1,4 @@
-import './PostJobAlert.css';
+import "./PostJobAlert.css";
 
 export const PostJobAlert = () => {
   return (

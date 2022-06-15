@@ -30,3 +30,14 @@
     color: var(--darkGray);
     font-size: 22px;
 }
+
+.logo{
+    display: block;
+    margin: 20px 0px;
+}
+
+@media screen and (min-width: 729px) {
+    .logo{
+        display: none;
+    }
+}

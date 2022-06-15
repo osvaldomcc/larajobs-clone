@@ -108,3 +108,16 @@ code {
   color: var(--white);
   background-color: var(--lightBlue);
 }
+
+.btn-danger-outlined{
+  background-color: var(--red);
+  color: var(--white);
+  padding: 2px 20px;
+  font-size: 16px;
+  border: 2px solid var(--red);
+}
+
+.btn-danger-outlined:hover{
+  color: var(--red);
+  background-color: var(--white);
+}

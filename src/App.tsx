@@ -1,6 +1,6 @@
-import { Header } from './components/UI/Header';
-import { PostJobAlert } from './components/UI/PostJobAlert';
-import './App.css';
+import { Header } from "./components/UI/Header";
+import { PostJobAlert } from "./components/UI/PostJobAlert";
+import "./App.css";
 
 export const App = () => {
   return (
