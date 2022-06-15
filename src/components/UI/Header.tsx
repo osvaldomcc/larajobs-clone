@@ -1,7 +1,7 @@
 import { Companies } from "./Companies";
 import { Navbar } from "./Navbar";
 import Logo from "../../assets/logo.svg";
-import "./Header.css";
+import "./css/Header.css";
 
 export const Header = () => {
   return (

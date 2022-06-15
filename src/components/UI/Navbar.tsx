@@ -1,8 +1,8 @@
-import { FC } from 'react';
+import { FC } from "react";
 
-import { Icon } from './Icon';
-import './Navbar.css';
-import Logo from '../../assets/logo.svg';
+import { Icon } from "./Icon";
+import "./css/Navbar.css";
+import Logo from "../../assets/logo.svg";
 
 interface Props {
   className?: string;
