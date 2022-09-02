@@ -1,7 +1,7 @@
-import { FC } from 'react';
+import { FC } from "react";
 
 interface Props {
-  name: string;
+  name: "rss" | "twitter" | "pin";
   size?: number;
 }
 
