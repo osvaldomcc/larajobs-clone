@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0px 20px;
-    margin-top: 5px;
+    margin-top: 10px;
     padding-bottom: 20px;
 }
 
@@ -25,19 +25,14 @@
 
 .subtitle{
     margin-top: 20px;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
     text-align: center;
     color: var(--darkGray);
     font-size: 22px;
 }
 
-.logo{
-    display: block;
-    margin: 20px 0px;
-}
-
 @media screen and (min-width: 729px) {
-    .logo{
-        display: none;
+    .content{
+        margin-top: 80px;
     }
 }
