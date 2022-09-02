@@ -1,4 +1,5 @@
-import { Company } from './Company';
+import { Company } from "./Company";
+import "./css/Companies.css";
 
 export const Companies = () => {
   return (

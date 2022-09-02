@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import { FC } from "react";
 
 interface Props {
   name: string;
@@ -10,6 +10,7 @@ export const Company: FC<Props> = ({ name, height = 25, className }) => {
   return (
     <picture>
       <img
+        style={{ marginBottom: 10 }}
         src={require(`../../assets/company-img/${name}.svg`)}
         alt={`${name}-company`}
         height={height}
