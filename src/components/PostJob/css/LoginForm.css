@@ -1,13 +1,15 @@
 .login-form{
     display: column;
+    width: 100%;
 }
 
 .post-input{
-    width: 93%;
+    width: 90%;
+    margin-left: -10px;
 }
 
 .inline-login{
-    width: 97%;
+    width: 93%;
     margin-top: 3px;
 }
 
@@ -19,11 +21,13 @@
 .form-login{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 @media screen and (min-width: 1000px) {
     .post-input{
         width: 35%;
+        margin-left: 0px;
     }
     .form-login{
         flex-direction: row;

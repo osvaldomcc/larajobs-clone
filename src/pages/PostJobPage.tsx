@@ -8,7 +8,7 @@ import "./css/PostJob.css";
 
 export const PostJobPage = () => {
   return (
-    <div className="mt-50">
+    <div className="post-job-content">
       <div className="post-job mt-20">
         <div className="container">
           <div className="forms">

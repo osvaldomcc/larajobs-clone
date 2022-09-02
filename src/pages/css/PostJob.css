@@ -2,10 +2,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
-}
-
-.container{    
-    width: 70vw;
+    max-width: 1280px;
 }
 
 .forms{
@@ -80,9 +77,21 @@ a {
     background-color: var(--lightYellow);
 }
 
+.post-job-content{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 600px) {
+    .container{
+        width: 60vw;
+    }
+}
 @media screen and (min-width: 850px) {
     .container{
         display: flex;
+        width: 70vw;
     }
     .forms{
         flex: 0.65;
