@@ -1,0 +1,8 @@
+.jobs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    flex-grow: 1;
+    padding: 20px 0px;
+}
