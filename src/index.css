@@ -56,8 +56,44 @@ a{
   margin-top: 10px;
 }
 
+.mb-10{
+  margin-bottom: 10px;
+}
+
 .mr-20{
   margin-right: 20px;
+}
+
+.mt-20{
+  margin-top: 20px;
+}
+
+.mb-20{
+  margin-bottom: 20px;
+}
+
+.mt-30{
+  margin-top: 30px;
+}
+
+.mb-30{
+  margin-bottom: 30px;
+}
+
+.mt-40{
+  margin-top: 40px;
+}
+
+.mb-40{
+  margin-bottom: 40px;
+}
+
+.mt-50{
+  margin-top: 50px;
+}
+
+.mb-50{
+  margin-bottom: 50px;
 }
 
 .underlined{
@@ -180,4 +216,20 @@ a{
 .btn-danger-outlined:hover{
   color: var(--red);
   background-color: var(--white);
+}
+
+.card{
+  border-radius: 5px;
+}
+
+.bg-gray{
+  background-color: var(--formBackground);
+}
+
+.bg-lightest-blue{
+  background-color: var(--lightestBlue);
+}
+
+.bg-white{
+  background-color: var(--white) !important;
 }
