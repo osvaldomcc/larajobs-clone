@@ -1,0 +1,40 @@
+.login-form{
+    display: column;
+}
+
+.post-input{
+    width: 93%;
+}
+
+.inline-login{
+    width: 97%;
+    margin-top: 3px;
+}
+
+.forgot-or-create{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1000px) {
+    .post-input{
+        width: 35%;
+    }
+    .form-login{
+        flex-direction: row;
+    }
+    .forgot-or-create{
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .inline-login{
+        margin-top: 0px;
+        width: 20%;
+        height: 42px;
+    }
+}

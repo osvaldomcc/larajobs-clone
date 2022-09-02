@@ -1,0 +1,25 @@
+.job-form{
+    margin-top: 20px;
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+.total-text{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.actions{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}

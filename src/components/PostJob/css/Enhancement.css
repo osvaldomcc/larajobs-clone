@@ -1,0 +1,35 @@
+.enhance-card{
+    background-color: var(--white);
+    border: 2px solid var(--gray);
+    padding: 30px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.enhance-card > h1{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.enhance-option{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.enhance-option > input[type="checkbox"] {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    border: 2px solid red;
+}
+
+.enhance-option > input[type="color"] {
+    margin-left: 10px;
+}
+
+.enhance-option>label{
+    cursor: pointer;
+    margin-left: 10px;
+}
