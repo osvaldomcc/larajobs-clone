@@ -1,0 +1,59 @@
+.job-card{
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--gray);
+    padding: 10px 5px;
+    border-radius: 5px;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: 0.3s ease-in;
+}
+
+.job-card:hover{
+    background-color: var(--formBackground);
+}
+
+.column-one{
+    display: flex;
+    align-items: center;
+}
+
+.job-info{
+    margin-left: 10px;
+}
+
+.job-info > h1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.job-info > h2 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.job-options{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: space-around;
+}
+
+#apply{
+    display: flex;
+    height: 30px;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.apply-btn{
+    width: 100px;
+}
+
+.job-tags{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
