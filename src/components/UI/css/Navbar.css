@@ -1,4 +1,7 @@
 .navbar{
+    position: absolute;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: space-between;
     padding: 0px 20px;
@@ -17,7 +20,7 @@
 }
 
 .fill-space{
-    width: 150px;
+    width: 200px;
 }
 
 .logo-image{
@@ -27,8 +30,17 @@
     margin-bottom: 10px;
 }
 
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
 @media screen and (min-width: 729px) {
     .logo-image{
         display: flex;
+    }
+    .logo{
+        display: none;
     }
 }

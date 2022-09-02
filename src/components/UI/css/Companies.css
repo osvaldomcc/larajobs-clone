@@ -1,4 +1,7 @@
 .companies{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    padding: 0px 30px;
 }

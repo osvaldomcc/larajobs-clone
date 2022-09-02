@@ -1,22 +1,36 @@
 .form-input{
+    outline: none;
     height: 40px;
     border-radius: 5px;
-    border: 1px solid var(--gray);
+    border: 2px solid var(--gray);
     background-color: var(--formBackground);
-    width: 100%;
+    width: 97%;
     padding: 0px 10px;
     font-size: 16px;
     letter-spacing: 1px;
-    margin-bottom: 1rem;
+}
+
+.form-input:focus{
+    border: 2px solid var(--viveBlue);
+    box-shadow: 0 0 2px var(--viveBlue);
 }
 
 .form-label{
+    margin-top: 10px;
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
 }
 
-.form-input[type="password"]{
-    font-size: 25px;
-    letter-spacing: 3px;
+.form-sublabel{
+    font-size: 13px;
+}
+
+.form-error-item{
+    color: var(--red);
+    font-size: 13px;
+}
+
+.form-input::placeholder{
+    color: var(--darkGray);
 }
