@@ -1,18 +1,18 @@
-import { Header } from "./components/UI/Header";
-import { PostJobAlert } from "./components/UI/PostJobAlert";
+import { BrowserRouter } from "react-router-dom";
+
 import { Footer } from "./components/UI/Footer";
-import { Login } from "./pages/Login";
+import { Navbar } from "./components/UI/Navbar";
+import { AppRoutes } from "./routes/AppRoutes";
 import "./App.css";
 
 export const App = () => {
   return (
-    <div className="app">
-      <Header />
-      <main className="container">
-        <Login />
-      </main>
-      <PostJobAlert show={true} />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <div className="main">
+        <Navbar className="mt-10" />
+        <AppRoutes />
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 };
