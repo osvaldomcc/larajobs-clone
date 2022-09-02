@@ -46,48 +46,50 @@ export const JobForm = () => {
         })}
       >
         <Form noValidate>
-          <InputText
-            name="job"
-            id="job"
-            type="text"
-            label="Job Title"
-            hint="Example: Senior Laravel Developer"
-          />
-          <InputText
-            name="title"
-            id="title"
-            type="text"
-            label="Job Location"
-            hint={`"Remote", "Remote, USA Only", "New York City"`}
-          />
-          <InputText
-            name="url"
-            id="url"
-            type="url"
-            label="URL to description/Application"
-            hint="Example: http://yourcompany.com/careers"
-          />
-          <InputText
-            name="tags"
-            id="tags"
-            type="text"
-            label="Tags"
-            hint="Max of 5 tags"
-          />
-          <InputText
-            name="companyName"
-            id="companyName"
-            type="text"
-            label="Company Name"
-          />
-          <InputText
-            name="logo"
-            id="logo"
-            type="file"
-            label="Company Logo"
-            sublabel="(130x130 is best, but any works)"
-          />
-          <InputText name="coupon" id="coupon" type="text" label="Coupon" />
+          <div className="job-inputs">
+            <InputText
+              name="job"
+              id="job"
+              type="text"
+              label="Job Title"
+              hint="Example: Senior Laravel Developer"
+            />
+            <InputText
+              name="title"
+              id="title"
+              type="text"
+              label="Job Location"
+              hint={`"Remote", "Remote, USA Only", "New York City"`}
+            />
+            <InputText
+              name="url"
+              id="url"
+              type="url"
+              label="URL to description/Application"
+              hint="Example: http://yourcompany.com/careers"
+            />
+            <InputText
+              name="tags"
+              id="tags"
+              type="text"
+              label="Tags"
+              hint="Max of 5 tags"
+            />
+            <InputText
+              name="companyName"
+              id="companyName"
+              type="text"
+              label="Company Name"
+            />
+            <InputText
+              name="logo"
+              id="logo"
+              type="file"
+              label="Company Logo"
+              sublabel="(130x130 is best, but any works)"
+            />
+            <InputText name="coupon" id="coupon" type="text" label="Coupon" />
+          </div>
           <Enhancement />
           {/* Price */}
           <div className="total bg-gray">

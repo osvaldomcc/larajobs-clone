@@ -1,8 +1,9 @@
 import { FC } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import { Icon } from "./Icon";
 import Logo from "../../assets/logo.svg";
+import { useNavigation } from "../../hooks/useNavigation";
 import "./css/Navbar.css";
 
 interface Props {
@@ -11,11 +12,7 @@ interface Props {
 }
 
 export const Navbar: FC<Props> = ({ className, hidePostJob }) => {
-  const navigate = useNavigate();
-
-  const handlePostJob = () => {
-    navigate("/post-a-job");
-  };
+  const { handleNavigation } = useNavigation();
 
   return (
     <>
@@ -27,11 +24,13 @@ export const Navbar: FC<Props> = ({ className, hidePostJob }) => {
           <button className="btn btn-social" type="button">
             Partner
           </button>
-          <Link to="/login">
-            <button className="btn btn-social" type="button">
-              Account
-            </button>
-          </Link>
+          <button
+            className="btn btn-social"
+            type="button"
+            onClick={() => handleNavigation("/login")}
+          >
+            Account
+          </button>
         </div>
         {/* Logo */}
         <Link to="/">
@@ -43,7 +42,7 @@ export const Navbar: FC<Props> = ({ className, hidePostJob }) => {
         {/* Post Job */}
         {!hidePostJob && (
           <button
-            onClick={handlePostJob}
+            onClick={() => handleNavigation("/post-a-job")}
             type="button"
             className="btn btn-primary-outlined fixed-top"
           >
@@ -51,9 +50,11 @@ export const Navbar: FC<Props> = ({ className, hidePostJob }) => {
           </button>
         )}
       </nav>
-      <picture className="logo">
-        <img src={Logo} alt="logo" height={40} />
-      </picture>
+      <Link to="/">
+        <picture className="logo">
+          <img src={Logo} alt="logo" height={40} />
+        </picture>
+      </Link>
     </>
   );
 };

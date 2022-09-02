@@ -1,3 +1,8 @@
+.job-container{
+    display: flex;
+    justify-content: center;
+}
+
 .jobs{
     display: flex;
     flex-direction: column;
@@ -5,4 +10,5 @@
     min-height: 100vh;
     flex-grow: 1;
     padding: 20px 0px;
+    max-width: 1280px;
 }

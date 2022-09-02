@@ -23,3 +23,7 @@
     display: flex;
     justify-content: center;
 }
+
+.job-inputs{
+    max-width: 90vw;
+}

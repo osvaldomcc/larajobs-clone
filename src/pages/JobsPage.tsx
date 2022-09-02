@@ -4,9 +4,11 @@ import "./css/JobsPage.css";
 
 export const JobsPage = () => {
   return (
-    <div className="jobs mt-50">
-      <Suscription />
-      <JobList />
+    <div className="job-container">
+      <div className="jobs mt-50">
+        <Suscription />
+        <JobList />
+      </div>
     </div>
   );
 };
